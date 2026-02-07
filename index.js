@@ -1,7 +1,6 @@
-import { extension_settings } from "../../../extensions.js";
-import { saveSettingsDebounced } from "../../../script.js";
-import { popup_call } from "../../../popup.js";
-
+import { extension_settings } from "/scripts/extensions.js";
+import { saveSettingsDebounced } from "/scripts/script.js";
+import { popup_call } from "/scripts/popup.js";
 const extensionName = "yuzu-manager";
 
 function createYuzuUI() {
